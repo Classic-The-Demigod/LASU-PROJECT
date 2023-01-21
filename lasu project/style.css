@@ -1,0 +1,77 @@
+
+body {
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 0rem 2rem;
+    gap: 2rem;
+}
+
+.logo {
+    width: 100%;
+    max-width: 80px;
+}
+
+.primary-header {
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: #538cf5;
+    padding: 2rem 0rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 47em) {
+    .primary-header {
+        display: grid;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.col {
+    gap: 25rem;
+    align-items: center;
+}
+
+@media (max-width: 47em) {
+    .col {
+        display: grid;
+        gap: 3rem;
+    }
+}
+
+.primary-nav {
+    list-style-type: none;
+    gap: 1rem;
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.img-bg {
+    background-image: url(/lasu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.foot-note {
+    text-align: center;
+    font-weight: bold;
+}
